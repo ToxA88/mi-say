@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ФОРМА</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            form {
+                margin-left: 38%;
+                margin-bottom: 45px;
+                padding-bottom: 15%;
+                font-weight: 369;
+                font-size: 18px;
+                margin-top: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <p>
+                Заполните форму.
+            </p>
+            <p>
+                <label for="login">login</label>
+                <input id="login" name="login" type="text" placeholder="login" autofocus/>
+            </p>
+            <p>
+                <label for="password">password</label>
+                <input type="text" name="password" id="password" placeholder="password"/>
+            </p>
+            <p>
+                <label for="name">ФИО</label>
+                <input type="text" name="name" id="name" placeholder="Иванов Иван Иванович"/>
+            </p>
+            <p>
+                <label for="phon">телефон</label>
+                <input type="text" name="phon" id="phon" placeholder="987654321"/>
+            </p>
+            <p>
+                <label for="name1">Ваш mail</label>
+                <input type="text" name="name" id="name1" placeholder="tytle@mail.ru"/>
+            </p>
+            <p>
+                <label for="age">год рождения</label>
+                <input type="number" name="age" min="1787" max="2024"/>
+            </p>
+            <p>
+                <label for="file">Загрузите файл</label>
+                <input name="file" type="file"/>
+            </p>
+            <p>
+                <label for="range">ползунок</label>
+                <input name="range" type="range"/>
+            </p>
+            <input id="in-1" type="submit" value="Отправить">
+            <input id="in-2" type="reset" value="Сброс">
+        </form>
+    </body>
+</html>
